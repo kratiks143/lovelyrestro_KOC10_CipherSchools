@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Landing page design using html and css in hindi</title>
+<style type="text/css">
+		*{padding: 0; margin:0; box-sizing: border-box; font-family: sans-serif;
+		}
+		header{
+			width: 100%;
+			height: 100vh;
+			background: url(https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/margherita.90f9451fd66871fb6f9cf7d506053f18.1.jpg);
+			background-size: 50% 90%;
+			background-repeat: no-repeat;
+			background-position: bottom right;
+			position: relative;
+		}
+		nav{
+			width: 100%;
+			height: 70px;
+			padding: 0px 70px;
+			background: white;
+			color: black;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			box-shadow: 2px 0px 5px grey;
+		}
+		.logo{
+			font-weight: bold;
+			font-size: 2em;
+			letter-spacing: 2px;
+		}
+		.logo span{
+			color: brown;
+		}
+		.menu a{
+			text-decoration: none;
+			color: black;
+			padding: 10px 20px;
+		}
+		.menu a:last-child{
+			background: brown;
+			color: white;
+			border-radius: 8px;
+		}
+
+		.h-text{
+			position: absolute;
+			top:30%;
+			left: 5%;
+			padding: 15px;
+
+		}
+		.h-text p{
+			color: #262626;
+			letter-spacing: 3px;
+			font-weight: bold;
+		}
+		.h-text h1{
+			font-size: 4em;
+			line-height: 1.5em;
+		}
+		.h-text h1 span{
+				color: brown;
+		}
+		.h-text h2{
+			font-size: 3em;
+			margin-bottom: 0.5em;
+		}
+		#order{
+			text-decoration: none;
+			color: white;
+			background: brown;
+			border-radius: 8px;
+			padding: 10px 20px;
+		}
+		#dis{
+			text-decoration: none;
+			color: white;
+			background: #262626;
+			padding: 10px 20px;
+			border-radius: 8px;
+		}
+		#pizza{
+			position: absolute;
+			bottom: 15%;
+			left: 5%;
+		}
+		#pizza img{
+			transition: 0.4s ease;
+		}
+		#pizza img:hover{
+			transform: translateY(20px);
+		}
+</style>
+</head>
+<body>
+<header>
+	<nav>
+		<div class="logo"><span>Lovely</span>Restro</div>
+		<div class="menu">
+				<a href="file:///C:/Users/HP/Desktop/rest.html#">Home</a>
+			<a href="aboutus.html">about us</a>
+			<a href="#">menu</a>
+			<a href="#">Gallery</a>
+			<a href="#">contact us</a>
+		</div>
+	</nav>
+	<div class="h-text">
+			<p>Free Home Delivery</p>
+		<h1>Quality F<span>oo</span>ds </h1>
+		<h2>Pizza Burger and <br> many more</h2>
+		<a href="#" id="order">Order now!!</a>
+		<a href="#" id="dis">25% Off Hurry!!</a>
+	</div> 
+	<div id="pizza">
+		<img src="C:\Users\HP\Desktop\pizza.jpeg" width="100" height="100">	
+		<img src="C:\Users\HP\Desktop\burger.jpg" width="100" height="100">
+		<img src="C:\Users\HP\Desktop\sandwich.jpg" width="100" height="100">
+	</div>
+</header>
+</body>
+</html>
